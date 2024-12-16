@@ -2,7 +2,7 @@
 include 'db.php';
 
 $id = $_GET['id'];
-$result = $conn->query("SELECT * FROM students WHERE id = $id");
+$result = $conn->query("SELECT * FROM app WHERE id = $id");
 $student = $result->fetch_assoc();
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
