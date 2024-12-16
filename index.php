@@ -1,6 +1,6 @@
 <?php
 include 'db.php';
-$result = $conn->query("SELECT * FROM students");
+$result = $conn->query("SELECT * FROM app");
 ?>
 
 <!DOCTYPE html>
