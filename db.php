@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$user = 'saysay';
-$password = 'catunao';
-$database = 'crud_db';
+$user = 'astraea';
+$password = 'Catunao@01';
+$database = 'app';
 
 $conn = new mysqli($host, $user, $password, $database);
 
